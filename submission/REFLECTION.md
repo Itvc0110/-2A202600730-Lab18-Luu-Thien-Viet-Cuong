@@ -1,6 +1,6 @@
 # Reflection
 
-Luu Thien VIet Cuong  
+Luu Thien VIet Cuong
 Student ID: 2A202600730
 
 The anti-pattern my team would be most at risk of is ignoring OPTIMIZE until the small-file problem becomes painful. In this lab, NB2 showed how 200 small files made a simple filtered query slower, while compaction plus Z-ORDER reduced the file count and tightened min/max stats so Delta could skip irrelevant files.
